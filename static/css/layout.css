@@ -1,0 +1,33 @@
+main {
+    max-width:750px;
+    margin: -10px auto 0px auto;
+    padding: 15px;
+}
+
+section {
+    display: block;
+    width: 510px;
+    padding-right: 20px;
+    border-right: 1px solid var(--nc-tx-2);
+    float: left;
+}
+
+aside {
+    display: block;
+    width: 170px;
+    float: right;
+    color: var(--nc-bg-3);
+    background-color: var(--nc-lk-1);
+    box-shadow: 2px 2px 2px var(--nc-lk-1);
+    padding: 5px;
+}
+
+aside h1 {
+    font-size: 18pt;
+    color: var(--nc-bg-3);
+    text-align: center;
+}
+
+aside a {
+    color: var(--nc-bg-3);
+}

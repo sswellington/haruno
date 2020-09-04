@@ -1,0 +1,152 @@
+:root {
+	--nc-lk-1: #008b6a;
+	--nc-lk-2: #4ed0eb;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+div#interface {
+    width: 1084px;
+    background-color: var(--nc-d-bg-1);
+    margin: -35px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+header h6 {
+    font-size: 13pt;
+    font-style: italic;
+    color: #555555;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+figure.subtitle {
+    width: auto;
+    height: auto;
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 3px 3px 6px black;
+}
+figure.subtitle img {
+    width: 100%;
+    height: 100%;
+}
+figure.subtitle figcaption {
+    opacity: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .2);
+    top: 0px;
+    font-size: 28pt;
+    color: white;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+figure.subtitle:hover figcaption {
+    opacity: 1;
+}
+
+section {
+    display: block;
+    width: 620px;
+    padding-right: 20px;
+    border-right: 1px solid #606060;
+    float: left;
+}
+
+header#article h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 10px;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+header#article h2 {
+    font-size: 11pt;
+    margin-bottom: 10px;
+    color: #808080;
+}
+
+header#article h4 {
+    text-align: right;
+    font-size: 10pt;
+    margin-bottom: 10px;
+    color: #808080;
+}
+header#article h5 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+article#news h3 {
+    font-size: 13pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 5px 5px 10px;
+    margin: 20px 5px 5px 10px;
+}
+
+aside {
+    display: block;
+    width: 420px;
+    float: right;
+    background-color: #3cb371; /* OU #add8e6*/
+    padding: 7px;
+    margin-top: 7px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+aside h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 21pt;
+    color: #505050;
+    margin: 10px 5px 5px 0px;
+    text-align: center;
+}
+
+aside h3 {
+    color: #504050;
+    font-size: 13pt;
+    background-color: #5f9ea0;
+    padding: 5px 5px 5px 10px;
+    margin: 10px 5px 5px 0px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    border-top: 1px solid var(--nc-lk-1);
+    background: var(--nc-bg-2);
+	margin: 1rem calc(0px - (50vw - 50%)) 1rem;
+	padding-left: calc(50vw - 50%);
+	padding-right: calc(50vw - 50%);
+}
+
+footer span {
+    color: #606060;
+    font-size: 9pt;
+    font-family: arial;
+    position: relative;
+}
+
+footer:hover span {
+    opacity: 1;
+}
+
+footer article#partner {
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
