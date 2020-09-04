@@ -1,7 +1,13 @@
 # Changelog
 
+## 0.1.2
+* fix: responsive mobile
+    * remove: layout.css
+* cleaning: sarada.css
+    * style <a>
+
 ## 0.1.1
-* remove sakura.css
+* remove: sakura.css
 * create: sarada.css
 * create: layout.css
 * add: aside
