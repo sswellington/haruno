@@ -1,10 +1,13 @@
 # Changelog
 
+## 0.1.3
+* add: enable browser caching
+
 ## 0.1.2
 * fix: responsive mobile
     * remove: layout.css
 * cleaning: sarada.css
-    * style <a>
+    * style: <a>
 
 ## 0.1.1
 * remove: sakura.css
