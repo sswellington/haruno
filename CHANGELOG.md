@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.4 
+* add: [Vue.js v3.0](https://v3.vuejs.org/)
+
 ## 0.1.3
 * add: enable browser caching
 
