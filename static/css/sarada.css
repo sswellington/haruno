@@ -31,14 +31,23 @@ header h2 {
     margin-top: 5px;
 }
 
+div.gallery {
+    margin-left: 33px;
+}
+
 div.gallery img {
-    width: 700px;
-    /* padding: 2.5px; */
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
     margin: 13px;
     border-radius: 12px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    transition: all linear .5s;
+}
+
+div.gallery img:hover {
+    transform: scale(1.63);
 }
 
 footer {

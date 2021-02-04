@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.6
+* transition and transform of scale;
+## 0.1.5
+* feat: gallery
+
 ## 0.1.4 
 * add: [Vue.js v3.0](https://v3.vuejs.org/)
 
