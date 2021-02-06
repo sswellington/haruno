@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.2.0
+* minify
+
 ## 0.1.6
 * transition and transform of scale;
 ## 0.1.5
