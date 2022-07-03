@@ -1,5 +1,3 @@
-// Doc: https://br.vuejs.org/v2/guide/index.html
-
 const base = {
     data() {
         return {
@@ -28,7 +26,7 @@ Vue.createApp(main).mount('#main')
 const footer = {
     data() {
         return {
-            name: '2021 © Haruno',
+            name: '2022 © Haruno',
             version: 'Version Beta',
             by: 'sswellington'
         }
